@@ -1,0 +1,172 @@
+* {
+	border: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+div#headGrid {
+	display: grid;
+  	grid-template-columns: 20% 80%;
+}
+
+div#headGridtop {
+	display: grid;
+	grid-template-columns: 90% 10%;
+}
+
+div#headGridbott {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+
+
+/*
+ *
+ * head section
+ *
+ */
+section#head {
+	height: 30vh;
+}
+
+img#hlImg {
+	width: 100%;
+	height: 30vh;
+}
+
+div.name {
+	background-color: #5b6066;
+	height: 10vh;
+	padding-left: 20px;
+	padding-top: 10px;
+	color: #f4f5f7;
+}
+
+div#downloadCV {
+	padding-top: 7px;
+}
+
+div#profession {
+	background-color: #45484c;
+	height: 10vh;
+	padding-left: 25px;
+	padding-top: 15px;
+	color: #f4f5f7;
+}
+
+a.homeLinkout {
+	text-decoration: none;
+	color: #f4f5f7;
+}
+
+div#cv, div#portfolio, div#contacts {
+	height: 10vh;
+	font-size: 25px;
+	padding-top: 10px;
+}
+
+div#cv {
+	background-color: #2aaf59;
+}
+
+div#portfolio {
+	background-color: #1b86c4;
+}
+
+div#contacts {
+	background-color: #e87700;
+}
+
+/*
+ *
+ * body section
+ *
+ */
+
+section#body {
+	height: 40vh;
+}
+
+div#bodySection {
+	height: 40vh;
+	display: grid;
+	grid-template-columns: 60% 40%;
+}
+
+div#bodyRight {
+	background-color: #f2efed;
+}
+
+div#bodyPersonalHead {
+	display: grid;
+	grid-template-rows: 20% 80%;
+}
+
+div#bodyPersonalDetails {
+	display: grid;
+	grid-template-columns: 40% 60%;
+}
+
+div#bodyPerHead {
+	padding-top: 20px;
+	padding-left: 70px;	
+}
+
+div#bodyPerInfo {
+	padding-left: 70px;
+	font-weight: bold;
+}
+
+/*
+ *
+ * footer section
+ *
+ */
+
+section#footer {
+	height: 30vh;
+}
+
+div#footerSection {
+	display: grid;
+	grid-template-columns: 20% 80%;
+}
+
+div#footerLeft, div#footerRight {
+	height: 30vh;
+}
+
+div#footerLeft {
+	background-color: #2aaf59;
+}
+
+div#footerRight {
+	/*background-color: #1b86c4;*/
+}
+
+/*.pie-wrapper--solid {
+  border-radius: 50%;
+  overflow: hidden;
+
+  &:before {
+    border-radius: 0 100% 100% 0 / 50%;
+    content: '';
+    display: block;
+    height: 100%;
+    margin-left: 50%;
+    transform-origin: left;
+  }
+  
+  .label {
+    background: transparent;
+  }
+  
+  &.progress-65 {
+    .draw-progress--solid(65, #e67e22, @bg);
+  }*/
+
+
+div#PHP {
+	height: 10vh;
+}
