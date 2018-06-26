@@ -19,7 +19,10 @@ div#headGridbott {
 	grid-template-columns: 50% 50%;
 }
 
-
+h1#myname {
+	position: relative;
+	left: 40px;
+}
 
 /*
  *
@@ -76,6 +79,11 @@ div#portfolio {
 
 div#contacts {
 	background-color: #e87700;
+}
+
+div#footerRight {
+	background-color: #1b86c4;
+	color: white;
 }
 
 /*
@@ -169,4 +177,8 @@ div#footerRight {
 
 div#PHP {
 	height: 10vh;
+}
+
+@media only screen and (max-width: 400px) {
+
 }

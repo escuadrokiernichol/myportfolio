@@ -20,7 +20,7 @@
 			<div class="grid-item" id="headRight">
 				<div class="grid-container name" id="headGridtop">
 					<div class="grid-item">
-						<h1>Kier Nichol Escuadro</h1>
+						<h1 id="myname">Kier Nichol Escuadro</h1>
 					</div>
 					<div class="grid-item text-center" id="downloadCV">
 						<span><i class="fas fa-download fa-2x"></i></span>
@@ -30,8 +30,12 @@
 					<h3>Web Developer</h3>
 				</div>
 				<div class="grid-container text-center" id="headGridbott">
-					<div class="grid-item" id="cv"><a href="" class="homeLinkout"><span><i class="fas fa-user-graduate"></i></span> RESUME</a></div>
-					<div class="grid-item" id="portfolio"><a href="" class="homeLinkout"><span><i class="fas fa-toolbox"></i></span> PORTFOLIO</a></div>
+					<div class="grid-item" id="cv">
+						<a href="./assets/file/EscuadroKierNichol.docx" class="homeLinkout"><span><i class="fas fa-user-graduate" download></i> RESUME</span></a>
+					</div>
+					<div class="grid-item" id="portfolio">
+						<a href="./portfolio/index.php" target="_blank" class="homeLinkout"><span><i class="fas fa-toolbox"></i></span> PORTFOLIO</a>
+					</div>
 					<!-- Add linkout here -->
 				</div>
 			</div>
@@ -39,7 +43,9 @@
 	</section>	
 	<section id="body">
 		<div class="grid-container" id="bodySection">
-			<div class="grid-item">7</div>
+			<div class="grid-item">
+				Nagiisip pa ng ilalagay dito
+			</div>
 			<div class="grid-item" id="bodyRight">
 				<div class="grid-container" id="bodyPersonalHead">
 					<div class="grid-item" id="bodyPerHead">
@@ -70,16 +76,20 @@
 	<section id="footer">
 		<div class="grid-container" id="footerSection">
 			<div class="grid-item" id="footerLeft">
-				
+				<h5>RECENT WORK</h5>
+				<ul>
+					<li><i class="fa fa-angle-double-right"></i> QA Engineer at ABS-CBN</li>
+					<li><i class="fa fa-angle-double-right"></i> QA Engineer at EastWest Bank</li>
+				</ul>
 			</div>
 			<div class="grid-item" id="footerRight">
-				<h5>PROFESSIONAL SKILLS</h5>
-				<div class="progress-circle progress-75"><span id="PHP">75</span></div>
-				<div class="progress-circle progress-45"><span id="PHP">45</span></div>
+				<h5>RECENT PROFESSIONAL SKILLS</h5>
+				<label>PHP</label>
+				<div class="progress-circle progress-63"><span id="PHP">63</span></div>
+				<label>Laravel</label>
+				<div class="progress-circle progress-51"><span id="PHP">51</span></div>
 			</div>
 		</div>
 	</section>
-
-
 </body>
 </html>
