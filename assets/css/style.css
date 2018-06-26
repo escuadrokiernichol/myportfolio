@@ -33,6 +33,11 @@ section#head {
 	height: 30vh;
 }
 
+a#downloadCVicon {
+	text-decoration: none;
+	color: white;
+}
+
 img#hlImg {
 	width: 100%;
 	height: 30vh;
@@ -142,6 +147,8 @@ div#footerSection {
 }
 
 div#footerLeft, div#footerRight {
+	color: white;
+	padding: 5px;
 	height: 30vh;
 }
 
