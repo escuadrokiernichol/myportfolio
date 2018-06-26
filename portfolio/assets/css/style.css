@@ -136,17 +136,16 @@ h1#codingsecheader {
 
 div#skillsSec {
 	display: grid;
-	grid-template-columns: 50% 50%;
+	grid-template-rows: 50% 50%;
 }
 
 div#frontendSec {
 	display: grid;
-	grid-template-columns: 33.33% 33.33% 33.33%;
+	grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
 img#jQuery {
-	height: 100px;
-	margin-bottom: 20px;
+	height: 40px;
 }
 
 
