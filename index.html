@@ -13,83 +13,242 @@
 </head>
 <body>
 	<section id="head">
-		<div class="grid-container" id="headGrid">
-			<div class="grid-item" id="headLeft">
-				<img src="./assets/image/me.jpg" alt="Kier Escuadro" id="hlImg">
-			</div>
-			<div class="grid-item" id="headRight">
-				<div class="grid-container name" id="headGridtop">
-					<div class="grid-item">
-						<h1 id="myname">Kier Nichol Escuadro</h1>
-					</div>
-					<div class="grid-item text-center" id="downloadCV">
-						<a href="./assets/file/EscuadroKierNichol.docx" title="Download Resume" data-trigger="hover" id="downloadCVicon" download><span><i class="fas fa-download fa-2x"></i></span></a>
-					</div>
+	<div class="grid-container" id="gridRow">	
+		<div class="grid-item">
+			<div class="grid-container" id="headGrid">
+				<div class="grid-item" id="headLeft">
+					<img src="./assets/image/me.jpg" alt="Kier Escuadro" id="hlImg">
 				</div>
-				<div class="grid-container" id="profession">
-					<h3>Web Developer</h3>
-				</div>
-				<div class="grid-container text-center" id="headGridbott">
-					<div class="grid-item" id="cv">
-						<a href="./assets/file/EscuadroKierNichol.docx" class="homeLinkout" title="Download Resume" data-trigger="hover"><span><i class="fas fa-user-graduate" download></i> RESUME</span></a>
+				<div class="grid-item" id="headRight">
+					<div class="grid-container name" id="headGridtop">
+						<div class="grid-item">
+							<h1 id="myname">Kier Nichol Escuadro</h1>
+						</div>
+						<div class="grid-item text-center" id="downloadCV">
+							<a href="./assets/file/EscuadroKierNichol.docx" title="Download Resume" data-trigger="hover" id="downloadCVicon" download><span><i class="fas fa-download fa-2x"></i></span></a>
+						</div>
 					</div>
-					<div class="grid-item" id="portfolio">
-						<a href="./portfolio/index.html" target="_blank" class="homeLinkout"><span><i class="fas fa-toolbox"></i></span> PORTFOLIO</a>
+					<div class="grid-container" id="profession">
+						<h3>Web Developer</h3>
 					</div>
-					<!-- Add linkout here -->
-				</div>
-			</div>
-		</div>
-	</section>	
-	<section id="body">
-		<div class="grid-container" id="bodySection">
-			<div class="grid-item">
-				Nagiisip pa ng ilalagay dito
-			</div>
-			<div class="grid-item" id="bodyRight">
-				<div class="grid-container" id="bodyPersonalHead">
-					<div class="grid-item" id="bodyPerHead">
-						<h3>PERSONAL INFO</h3>
-					</div>
-					<div class="grid-item">
-						<div class="grid-container" id="bodyPersonalDetails">
-							<div class="grid-item" id="bodyPerInfo">
-								<p>NAME:</p>
-								<p>BIRTH DATE:</p>
-								<p>ADDRESS:</p>
-								<p>PHONE:</p>
-								<p>EMAIL:</p>
-							</div>					
-							<div class="grid-item">
-								<p>Kier Nichol P. Escuadro</p>
-								<p>October 31, 1992</p>
-								<p>West Kamias, QC.</p>
-								<p>0995-008-5674</p>
-								<p>knpescuadro@gmail.com</p>
+				
+					<div class="tab">
+						<div class="grid-container text-center" id="headGridbott">
+							<div class="grid-item" id="portfolio">
+								<button class="tablinks" onclick="openTab(event, 'projectTab')" id="tabButtons">
+									<i class="fas fa-project-diagram"></i> PROJECTS
+								</button>
+							</div>
+							<div class="grid-item" id="skills">
+								<button class="tablinks" onclick="openTab(event, 'skillsTab')" id="tabButtons">
+									<i class="fas fa-tasks"></i> SKILLS
+								</button>
+							</div>
+							<div class="grid-item" id="aboutme">
+								<button class="tablinks" onclick="openTab(event, 'aboutmeTab')" id="tabButtons">
+									<i class="fas fa-user-alt"></i> ABOUT ME
+								</button>
 							</div>
 						</div>
 					</div>
+						<!-- Add linkout here -->
 				</div>
 			</div>
 		</div>
-	</section>	
-	<section id="footer">
-		<div class="grid-container" id="footerSection">
-			<div class="grid-item" id="footerLeft">
-				<h5>RECENT WORK</h5>
-				<ul>
-					<li><i class="fa fa-angle-double-right"></i> QA Engineer at ABS-CBN</li>
-					<li><i class="fa fa-angle-double-right"></i> QA Engineer at EastWest Bank</li>
-				</ul>
+		<div class="grid-item">
+			<div class="grid-item">
+				<div id="projectTab" class="tabcontent">
+					<section id="portfolio-section" class="text-center">
+						<h1>Projects</h1>
+							<div id="portfolio-sect-1" class="text-center">
+								<div class="grid-container" id="portfolioSec">
+									<div class="grid-item">
+										<div class="portfolio-sect-2 sect-csp-1">
+											<a href="https://escuadrokiernichol.github.io/csp1/" id="csp1Linkout" target="_blank">
+												<img src="./assets/image/csp1_1.png" id="csp1Img">
+											</a>
+											<a href="https://escuadrokiernichol.github.io/csp1/" id="csp1Linkout" target="_blank"><span class="projectlinkout">FoodBook - Your Online Cook Book <i class="fas fa-external-link-alt"></i></span>
+											</a>
+											<p>
+												This website aims chef/cook who love to share their recipes or someone just wanted to share what they love about food. What you can do here, view all available recipes on website, share your recipes, rate or comment on recipes.
+											</p>
+										</div>
+									</div>
+									<div class="grid-item">
+										<div class="portfolio-sect-2 sect-csp-1">
+											<a href="https://instantmeal.000webhostapp.com" id="csp2Linkout" target="_blank">
+												<img src="./assets/image/csp2_2.png" id="csp2Img">
+											</a>
+											<a href="https://instantmeal.000webhostapp.com" id="csp2Linkout" target="_blank"><span> MEEEAAAL! <i class="fas fa-external-link-alt"></i></span>
+											</a>
+												<p>
+													Like our target audience we offer convenience to our client/customer. We want to ease the worry of someone who like to have a gathering but doesn’t have time to prepare or someone who doesn’t have the cooking skills yet, but wanna share food? We are here for you. -- “Food can be a uniting force”.
+
+												</p>
+										</div>
+									</div>
+									<div class="grid-item">
+										<div class="portfolio-sect-2 sect-csp-1">
+											<a href="https://uncurdled-withdrawa.000webhostapp.com/" id="csp3Linkout" target="_blank">
+												<img src="./assets/image/csp3_3.png" id="csp3Img">
+											</a>
+											<a href="https://escuadrokiernichol.github.io/csp1/" id="csp3Linkout" target="_blank">
+												<span>tumbly <i class="fas fa-external-link-alt"></i></span>
+											</a>
+											<p>
+												This website aims chef/cook who love to share their recipes or someone just wanted to share what they love about food. What you can do here, view all available recipes on website, share your recipes, rate or comment on recipes.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+					</section>
+				</div>
+				<div id="skillsTab" class="tabcontent">
+					<section id="skills-section" class="text-center">
+						<h1 id="codingsecheader">Coding Skills</h1>
+						<!-- <div id="skills-sect"> -->
+							<div class="grid-container" id="skillsSec">
+								<div class="grid-item">
+									<div class="skills-sect-1 frontend">
+										<h3>Front-End</h3>
+										<div class="skills-sect-2">
+											<div class="grid-container" id="frontendSec">
+												<div class="grid-item">
+													<h3><i class="fab fa-html5 fa-2x skillsBadge"></i><p>HTML 5</p></h3>
+													<div class="progress-circle progress-60">
+														<span id="PHP">60</span>
+													</div>
+												</div>
+												<div class="grid-item">
+													<h3><i class="fab fa-css3-alt skillsBadge fa-2x"></i><p>CSS 3</p></h3>
+													<div class="progress-circle progress-54">
+														<span id="PHP">54</span>
+													</div>
+												</div>
+												<div class="grid-item">
+													<h3><i class="fas fa-bold skillsBadge fa-2x"></i><p>Bootstrap</p></h3>
+													<div class="progress-circle progress-55">
+														<span id="PHP">55</span>
+													</div>
+												</div>
+												<div class="grid-item">
+													<h3><i class="fab fa-js skillsBadge fa-2x"></i><p>JavaScript</p></h3>
+													<div class="progress-circle progress-41">
+														<span id="PHP">41</span>
+													</div>
+												</div>
+												<div class="grid-item">
+													<h3><img id="jQuery" class="skillsBadge" src="./assets/image/jquery.gif"><p>jQuery</p></h3>
+													<div class="progress-circle progress-43">
+														<span id="PHP">43</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="grid-item">	
+									<div class="skills-sect-1 backend">
+										<h3>Back-End Development</h3>
+										<div class="skills-sect-2">
+											<div class="skills-sect-2">
+												<div class="grid-container text-center" id="frontendSec">
+													<div class="grid-item" id="backendSkills">
+														<h3><i class="fab fa-php skillsBadge"></i><p>PHP</p></h3>
+														<div class="progress-circle progress-63">
+														<span id="PHP">63</span>
+														</div>
+													</div>
+													<div class="grid-item">
+														<h3><i class="fab fa-laravel skillsBadge"></i><p>Laravel</p></h3>
+														<div class="progress-circle progress-51">
+														<span id="PHP">51</span>
+														</div>
+													</div>
+													<div class="grid-item">
+														<h3><img id="sql" class="skillsBadge" src="./assets/image/sql.png"><p>Sql</p></h3>
+														<div class="progress-circle progress-39">
+														<span id="PHP">39</span>
+														</div>
+													</div>
+													<div class="grid-item">
+														<h3><img id="mariadb" class="skillsBadge" src="./assets/image/mariadb.png"><p>MariaDB</p></h3>
+														<div class="progress-circle progress-43">
+														<span id="PHP">43</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						<!-- </div> -->
+					</section>
+				</div>
+				<div id="aboutmeTab" class="tabcontent">
+					<section id="about-section">
+			<h1 class="text-center">Keep in touch</h1>
+			<div class="grid-container" id="about-sect">
+				<div class="grid-item about-sect-1 text-justify" id="aboutmepart">
+					<h3>About Me</h3>
+					<p>I took computer engineering course in college hoping that I will be able to create games or do something useful, but after graduating It really is the start of searching my life worth or what they call pursuit of happiness, struggle is real, specially for a person like me who doesn't really know anything in manila. I grew in Nueva Ecija province. First I look for Network Admin or Jr Dev but no luck for me, so there is this QA or Quality Assurance Engineer position came up, with only limited budget and a month of hoping to land a job I took it without hesitation. After that there are opportunities, I don't know but I hesitate to grab it thinking that maybe this is not for me. But after that opportunities still came then I realize maybe God throwing it to my face without knowing. So I started saving and look for bootcamps also consider enrolling on 6 months course, but no luck cause bootcamp cost in manila will never be affordable for me. But one day Tuitt came and their payment scheme really suit me. 3 months extensive training with them boost my self-esteem, Tuitt really bridge the gap on getting your dream job, and now I can say that I am a Web Developer.
+					</p>
+				</div>
+				<div class="grid-item about-sect-2" id="keeppart">
+					<h3>Contacts</h3>
+					<div class="grid-container" id="keepintouchpart">
+						<div class="grid-item" id="keepleft">
+							<p class="contactsss">PHONE:</p>
+							<p class="contactsss">LINKEDIN:</p>
+							<p class="contactsss">EMAIL:</p>
+						</div>
+						<div class="grid-item" id="keepright">
+							<p>0995-008-5674</p>
+							<p>Kier Nichol Escuadro</p>
+							<p>knpescuadro@gmail.com</p>
+						</div>
+						<div class="grid-item">
+							<a href="https://www.facebook.com/kier.escuadro?ref=bookmarks" class="keepLinkoutfb" target="_blank">
+								<span><i class="fab fa-facebook fa-2x"></i></span>			
+							</a>	
+							<a href="https://www.linkedin.com/in/kier-nichol-escuadro-431454154/" class="keepLinkoutln" target="_blank">
+								<span><i class="fab fa-linkedin fa-2x"></i></span>
+							</a>
+							<a href="https://www.instagram.com/kiernichol/?hl=en" class="keepLinkoutinsta" target="_blank">
+								<span><i class="fab fa-instagram fa-2x"></i></span>
+							</a>
+							<a href="mailto:escuadro.kiernichol@gmail.com" class="keepLinkoutgg"><i class="fab fa-google fa-2x"></i></a>	
+						</div>
+					</div>
+				</div>			
 			</div>
-			<div class="grid-item" id="footerRight">
-				<h5>RECENT PROFESSIONAL SKILLS</h5>
-				<label>PHP</label>
-				<div class="progress-circle progress-63"><span id="PHP">63</span></div>
-				<label>Laravel</label>
-				<div class="progress-circle progress-51"><span id="PHP">51</span></div>
+			<p class="text-center" id="owner">Copyright &copy; 2018 | Kier Nichol P. Escuadro</p>
+		</section>
+				</div>
+				<div id="keepTab" class="tabcontent">
+				</div>
 			</div>
 		</div>
-	</section>
+	</div>
+</section>
+
+
+	<script>
+	function openTab(evt, portTab) {
+	    var i, tabcontent, tablinks;
+	    tabcontent = document.getElementsByClassName("tabcontent");
+	    for (i = 0; i < tabcontent.length; i++) {
+	        tabcontent[i].style.display = "none";
+	    }
+	    tablinks = document.getElementsByClassName("tablinks");
+	    for (i = 0; i < tablinks.length; i++) {
+	        tablinks[i].className = tablinks[i].className.replace("active", "");
+	    }
+	    document.getElementById(portTab).style.display = "block";
+	    evt.currentTarget.className += " active";
+	}
+	</script>
 </body>
 </html>
