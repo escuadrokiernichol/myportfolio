@@ -21,12 +21,20 @@ div#headGridtop {
 
 div#headGridbott {
 	display: grid;
-	grid-template-columns: 33.33% 33.33% 33.33%;
+	grid-template-columns: 25% 25% 25% 25%;
+}
+
+p.projDesc {
+	padding: 15px;
+}
+
+h3.skillsTitle {
+	text-decoration: underline;
 }
 
 h1#myname {
-	position: relative;
-	left: 40px;
+/*	position: absolute;
+	left: 290px;*/
 }
 
 a[href="mailto:escuadro.kiernichol@gmail.com"] {
@@ -93,10 +101,14 @@ a.homeLinkout {
 	color: #f4f5f7;
 }
 
-div#cv, div#portfolio, div#contacts, div#skills, div#aboutme, div#keepers {
+div#home, div#cv, div#portfolio, div#contacts, div#skills, div#aboutme, div#keepers {
 	height: 10vh;
 	font-size: 25px;
 	padding-top: 10px;
+}
+
+div#home {
+	background-color: #b7aeae;
 }
 
 div#cv {
@@ -134,8 +146,8 @@ div#portfolioSec {
 }
 
 #portfolio-section {
-	background-color: rgba(0, 0, 0, .8);
-	color: white;
+	/*background-color: rgba(0, 0, 0, .8);*/
+	/*color: white;*/
 }
 
 div#portfolio-sect-1 {
@@ -150,11 +162,9 @@ img#csp1Img, img#csp2Img, img#csp3Img {
 
 a#csp1Linkout, a#csp2Linkout, a#csp3Linkout {
 	text-decoration: none;
-	color: white;
+	color: black;
 	font-size: 25px;
 }
-
-
 
 img.cspImg {
 	width: 90%;
@@ -170,8 +180,12 @@ div.projectsHeight {
 
 /**/
 
-/*section#body {
+section#body {
 	height: 40vh;
+}
+
+h3.homeContent, li.homeContent {
+	padding-left: 15px;
 }
 
 div#bodySection {
@@ -203,14 +217,14 @@ div#bodyPerInfo {
 	padding-left: 70px;
 	font-weight: bold;
 }
-*/
+
 /*
  *
  * footer section
  *
  */
 
-/*section#footer {
+section#footer {
 	height: 30vh;
 }
 
@@ -230,10 +244,11 @@ div#footerLeft {
 }
 
 div#footerRight {
-	/*background-color: #1b86c4;*/
-/*}*/
-
-/*.pie-wrapper--solid {
+	background-color: #1b86c4;
+}
+/*}
+/*
+.pie-wrapper--solid {
   border-radius: 50%;
   overflow: hidden;
 
@@ -340,7 +355,11 @@ div#portfolioSec {
 	padding-right: 15px;
 	display: grid;
 	grid-template-columns: 100%;
-	background-color: #343a40;
+	/*background-color: #343a40;*/
+}
+
+div#portfolio-section {
+	background-color: white;
 }
 
 div#frontendSec {
