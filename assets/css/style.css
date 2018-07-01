@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+button.tablinks {
+	cursor: pointer;
+}
+
 div#gridRow {
 	display: grid;
 	grid-template-rows: 20% 80%;
@@ -19,6 +23,11 @@ div#headGridtop {
 	grid-template-columns: 90% 10%;
 }
 
+h1#myname {
+	text-align: left;
+	padding-left: 20px;
+}
+
 div#headGridbott {
 	display: grid;
 	grid-template-columns: 25% 25% 25% 25%;
@@ -30,11 +39,6 @@ p.projDesc {
 
 h3.skillsTitle {
 	text-decoration: underline;
-}
-
-h1#myname {
-/*	position: absolute;
-	left: 290px;*/
 }
 
 a[href="mailto:escuadro.kiernichol@gmail.com"] {
@@ -79,7 +83,7 @@ img#hlImg {
 div.name {
 	background-color: #45484c;
 	height: 10vh;
-	padding-left: 20px;
+	/*padding-left: 20px;*/
 	padding-top: 10px;
 	color: #f4f5f7;
 }
@@ -145,11 +149,6 @@ div#portfolioSec {
 	grid-template-columns: 33.33% 33.33% 33.33%;
 }
 
-#portfolio-section {
-	/*background-color: rgba(0, 0, 0, .8);*/
-	/*color: white;*/
-}
-
 div#portfolio-sect-1 {
 	height: 100vh;
 }
@@ -174,7 +173,6 @@ img.cspImg {
 
 div.projectsHeight {
 	width: 80%;
-	/*margin: 0 auto;*/
 	height: 100vh;
 }
 
@@ -190,8 +188,6 @@ h3.homeContent, li.homeContent {
 
 div#bodySection {
 	height: 40vh;
-	display: grid;
-	grid-template-columns: 60% 40%;
 }
 
 div#bodyRight {
@@ -279,14 +275,6 @@ div#frontendSec {
 	grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
-button#tabButtons {
-
-}
-
-/*div#backendSkills {
-	text-align: center;
-}*/
-
 img#jQuery {
 	height: 65px;
 }
@@ -332,9 +320,147 @@ a.keepLinkoutinsta {
 
 @media only screen and (max-width: 400px) {
 
+div#gridRow {
+	display: grid;
+	grid-template-rows: 70% 10% 10% 10%;
+}
+
+img#hlImg {
+	width: 100%;
+	height: 70vh;
+}
+
+div#headGrid {
+	display: grid;
+  	grid-template-columns: 100%;
+}
+
+h1#myname {
+	text-align: left;
+	font-size: 20px;
+}
+
+h3#myProf {
+	margin-left: 20px;
+	font-size: 15px;
+}
+
+h1#myname {
+	position: absolute;
+	left: 5px;
+}
+
+h3#myProf {
+	position: absolute;
+	left: 5px;
+}
+
+a#downloadCVicon {
+	position: absolute;
+	right: 10px;
+	bottom: 150px;
+}
+
+/*div#headGridbott {
+	height: 20vh;
+}*/
+
+i.fas {
+	padding: 0;
+	font-size: 35px;
+}
+
+span.homeBtnDesc {
+	display: none;
+}
+
+div#footerSection {
+	display: grid;
+	grid-template-columns: 100%;
+}
+
+div#footerRightContent {
+	display: grid;
+	grid-template-columns: 100%;
+	background-color: #1b86c4;
+	padding: 10px;
+	padding-left: 85px;
+}
+
+div#footerLeft {
+	padding: 10px;
+}
+
+div#footerRight {
+	padding: 0;	
+}
+
+h5.recentSkills {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+/*
+ *
+ * portfolio
+ *
+ */
+
+div#portfolioSec {
+	display: grid;
+	grid-template-columns: 100%;
+} 
+
+/*div#skillsSec {
+	display: grid;
+	grid-template-rows: 50% 50%;
+}*/
+
+div#frontendSec {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+i#bootstrapBadge {
+	font-size: 55px;
+}
+
+/*
+ *
+ * about section
+ *
+ */
+
+div#about-sect {
+	padding: 5px;
+	display: grid;
+	grid-template-columns: 100%;
+}
+
+div#keepintouchpart {
+	padding: 0;
+	display: grid;
+	grid-template-columns: 28% 63% 9%;
+}
+
+p#owner {
+	margin-top: 35px;
+	position: relative;
+	left: 0;
+	bottom: 5px;
+}
+
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+h1#myname {
+	text-align: left;
+}
+
+span.homeBtnDesc {
+	display: block;
+}
+
 div#gridRow {
 	display: grid;
 	grid-template-rows: 20% 80%;
@@ -371,6 +497,41 @@ div#about-sect {
 	padding: 15px;
 	display: grid;
 	grid-template-columns: 100%;
+}
+
+section#body {
+	height: 50vh;
+}
+
+h3.homeContent, li.homeContent {
+	padding-left: 15px;
+}
+
+div#bodySection {
+	height: 50vh;
+	display: grid;
+	grid-template-columns: 60% 40%;
+}
+
+section#footer {
+	height: 20vh;
+}
+
+div#footerSection {
+	display: grid;
+	grid-template-columns: 30% 70%;
+}
+
+div#footerLeft, div#footerRight {
+	color: white;
+	padding: 5px;
+	height: 20vh;
+}
+
+p#owner {
+	position: absolute;
+	left: 30%;
+	bottom: 10px;
 }
 
 }

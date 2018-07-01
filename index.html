@@ -29,29 +29,29 @@
 						</div>
 					</div>
 					<div class="grid-container" id="profession">
-						<h3>Web Developer</h3>
+						<h3 id="myProf">Web Developer</h3>
 					</div>
 				
 					<div class="tab">
 						<div class="grid-container text-center" id="headGridbott">
 							<div class="grid-item" id="home">
-								<button class="tablinks" onclick="openTab(event, 'homeTab')" id="tabButtons">
-									<i class="fas fa-home"></i> HOME
+								<button title="Home" data-trigger="hover" class="tablinks" onclick="openTab(event, 'homeTab')" id="tabButtons">
+									<i class="fas fa-home"></i> <span class="homeBtnDesc">HOME</span>
 								</button>
 							</div>
 							<div class="grid-item" id="portfolio">
-								<button class="tablinks" onclick="openTab(event, 'projectTab')" id="tabButtons">
-									<i class="fas fa-project-diagram"></i> PROJECTS
+								<button title="My Projects" data-trigger="hover"  class="tablinks" onclick="openTab(event, 'projectTab')" id="tabButtons">
+									<i class="fas fa-project-diagram"></i> <span class="homeBtnDesc">PROJECTS</span>
 								</button>
 							</div>
 							<div class="grid-item" id="skills">
-								<button class="tablinks" onclick="openTab(event, 'skillsTab')" id="tabButtons">
-									<i class="fas fa-tasks"></i> SKILLS
+								<button title="Skill set" data-trigger="hover"  class="tablinks" onclick="openTab(event, 'skillsTab')" id="tabButtons">
+									<i class="fas fa-tasks"></i> <span class="homeBtnDesc">SKILLS</span>
 								</button>
 							</div>
 							<div class="grid-item" id="aboutme">
-								<button class="tablinks" onclick="openTab(event, 'aboutmeTab')" id="tabButtons">
-									<i class="fas fa-user-alt"></i> ABOUT ME
+								<button title="Keep in touch" data-trigger="hover"  class="tablinks" onclick="openTab(event, 'aboutmeTab')" id="tabButtons">
+									<i class="fas fa-user-alt"></i> <span class="homeBtnDesc">ABOUT ME</span>
 								</button>
 							</div>
 						</div>
@@ -68,7 +68,7 @@
 							<div class="grid-item">
 								<h3 class="homeContent skillsTitle">Trainings</h3>
 								<ul class="list-unstyled">
-									<li class="homeContent"><i class="fa fa-angle-double-right"></i>Tuitt - Coding Bootcamp, March-June 2018</li>
+									<li class="homeContent"><i class="fa fa-angle-double-right"></i> Tuitt - Coding Bootcamp, March-June 2018</li>
 								</ul>
 							</div>
 						</div>
@@ -83,11 +83,13 @@
 								</ul>
 							</div>
 							<div class="grid-item" id="footerRight">
-								<h5>RECENT PROFESSIONAL SKILLS</h5>
-								<label>PHP</label>
-								<div class="progress-circle progress-63"><span id="PHP">63</span></div>
-								<label>Laravel</label>
-								<div class="progress-circle progress-51"><span id="PHP">51</span></div>
+								<h5 class="recentSkills">RECENT PROFESSIONAL SKILLS</h5>
+								<div class="grid-container" id="footerRightContent">
+									<label>PHP</label>
+									<div class="progress-circle progress-63"><span id="PHP">63</span></div>
+									<label>Laravel</label>
+									<div class="progress-circle progress-51"><span id="PHP">51</span></div>
+								</div>
 							</div>
 						</div>
 					</section>
@@ -162,7 +164,7 @@
 													</div>
 												</div>
 												<div class="grid-item">
-													<h3><i class="fas fa-bold skillsBadge fa-2x"></i><p>Bootstrap</p></h3>
+													<h3><i class="fas fa-bold skillsBadge fa-2x" id="bootstrapBadge"></i><p>Bootstrap</p></h3>
 													<div class="progress-circle progress-55">
 														<span id="PHP">55</span>
 													</div>
@@ -203,14 +205,14 @@
 													</div>
 													<div class="grid-item">
 														<h3><img id="sql" class="skillsBadge" src="./assets/image/sql.png"><p>Sql</p></h3>
-														<div class="progress-circle progress-39">
-														<span id="PHP">39</span>
+														<div class="progress-circle progress-49">
+														<span id="PHP">49</span>
 														</div>
 													</div>
 													<div class="grid-item">
 														<h3><img id="mariadb" class="skillsBadge" src="./assets/image/mariadb.png"><p>MariaDB</p></h3>
-														<div class="progress-circle progress-43">
-														<span id="PHP">43</span>
+														<div class="progress-circle progress-49">
+														<span id="PHP">49</span>
 														</div>
 													</div>
 												</div>
