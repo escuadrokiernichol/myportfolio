@@ -61,6 +61,7 @@ p#owner {
  * head section
  *
  */
+
 section#head {
 	height: 30vh;
 }
@@ -70,7 +71,7 @@ a#downloadCVicon {
 	color: white;
 }
 
-button#tabButtons {
+button.tabButtons {
 	background-color: inherit;
 	border: none;
 }
