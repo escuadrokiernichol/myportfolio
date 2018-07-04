@@ -321,6 +321,11 @@ a.keepLinkoutinsta {
 
 @media only screen and (max-width: 400px) {
 
+section#body {
+	height: 100vh;
+	padding-right: 10px;
+}
+
 div#gridRow {
 	display: grid;
 	grid-template-rows: 70% 10% 10% 10%;
@@ -511,7 +516,7 @@ h3.homeContent, li.homeContent {
 div#bodySection {
 	height: 50vh;
 	display: grid;
-	grid-template-columns: 60% 40%;
+	grid-template-columns: 100%;
 }
 
 section#footer {
