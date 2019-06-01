@@ -8,6 +8,10 @@ button.tablinks {
 	cursor: pointer;
 }
 
+.no-focus-outline button.tablinks:focus {
+	outline: none;
+}
+
 div#gridRow {
 	display: grid;
 	grid-template-rows: 20% 80%;
@@ -145,6 +149,18 @@ div#footerRight {
 	color: white;
 }
 
+div#projectTab {
+	margin-top: 20px;
+}
+
+div#skillsTab {
+	margin-top: 30px;
+}
+
+div#aboutmeTab {
+	margin-top: 70px;
+}
+
 div#portfolioSec {
 	display: grid;
 	grid-template-columns: 33.33% 33.33% 33.33%;
@@ -188,7 +204,8 @@ h3.homeContent, li.homeContent {
 }
 
 div#bodySection {
-	height: 40vh;
+	/*height: 40vh;*/
+	margin-top: 77px;
 }
 
 div#bodyRight {
@@ -222,7 +239,7 @@ div#bodyPerInfo {
  */
 
 section#footer {
-	height: 30vh;
+	height: 10vh;
 }
 
 div#footerSection {
@@ -318,6 +335,8 @@ a.keepLinkoutinsta {
 	text-decoration: none;
 	color: #9b1287;
 }
+
+.homeBtnDesc
 
 @media only screen and (max-width: 400px) {
 
@@ -506,7 +525,7 @@ div#about-sect {
 }
 
 section#body {
-	height: 50vh;
+	height: 40vh;
 }
 
 h3.homeContent, li.homeContent {
@@ -514,13 +533,13 @@ h3.homeContent, li.homeContent {
 }
 
 div#bodySection {
-	height: 50vh;
+	height: 40vh;
 	display: grid;
 	grid-template-columns: 100%;
 }
 
 section#footer {
-	height: 20vh;
+	height: 30vh;
 }
 
 div#footerSection {
@@ -539,5 +558,17 @@ p#owner {
 	left: 30%;
 	bottom: 10px;
 }
+
+/*div#projectTab {
+	margin-top: 40px;
+}*/
+
+/*div#skillsTab {
+	margin-top: 30px;
+}
+
+div#aboutmeTab {
+	margin-top: 70px;
+}*/
 
 }
